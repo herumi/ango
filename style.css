@@ -10,3 +10,18 @@
 image {
   border: 1px solid #888;
 }
+
+div.x {
+  margin: 1em;
+  padding: 1em;
+  background-color: #ffecec;
+  text-align: left;
+  line-height: 105%;
+}
+div.o {
+  margin: 1em;
+  padding: 1em;
+  background-color: #eaffea;
+  text-align: left;
+  line-height: 105%;
+}
