@@ -1,15 +1,12 @@
-『クラウドを支えるこれからの暗号技術』(秀和システム)
-====
+# 『クラウドを支えるこれからの暗号技術』(秀和システム)
 
 このテキストは2000年以降に登場したペアリングを使った暗号の紹介をします。
+
+* [秀和システム](http://www.shuwasystem.co.jp/products/7980html/4413.html)
 * [amazon](http://www.amazon.co.jp/gp/product/479804413X)
-* [最新版pdf](https://github.com/herumi/ango/blob/master/ango.pdf)
-* [TeX src](https://github.com/herumi/ango-src)
-* [紹介ブログ記事](http://developer.cybozu.co.jp/tech/?p=8567)
 * [正誤表](errata.md)
 
-主な目次
----
+## 主な目次
 * 第I部 暗号の基礎
     * 第1章 共通鍵暗号
     * 第2章 乱数
@@ -38,6 +35,10 @@
 
 * 参考文献
 
-著者
-----
+## pdfとTeXソース
+
+* [TeX src](https://github.com/herumi/ango-src)
+* [最新版pdf](https://github.com/herumi/ango/blob/master/ango.pdf)
+
+## 著者
 光成滋生[@herumi](https://twitter.com/herumi)(`herumi@nifty.com`)
