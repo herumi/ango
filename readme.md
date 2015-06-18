@@ -6,6 +6,7 @@
 * [最新版pdf](https://github.com/herumi/ango/blob/master/ango.pdf)
 * [TeX src](https://github.com/herumi/ango-src)
 * [紹介ブログ記事](http://developer.cybozu.co.jp/tech/?p=8567)
+* [正誤表](errata.md)
 
 主な目次
 ---
