@@ -6,3 +6,7 @@
   width:40%;
   float:left;
 }
+
+image {
+  border: 1px solid #888;
+}
