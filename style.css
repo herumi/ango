@@ -25,3 +25,13 @@ div.o {
   text-align: left;
   line-height: 105%;
 }
+span.del {
+  background-color: #ffecec;
+}
+span.add {
+  background-color: #eaffea;
+}
+
+dd {
+  margin-bottom: 1em;
+}
