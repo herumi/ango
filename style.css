@@ -35,3 +35,9 @@ span.add {
 dd {
   margin-bottom: 1em;
 }
+
+p.item {
+  margin: 0em;
+  padding: 0em;
+  line-height: 105%;
+}

@@ -24,55 +24,195 @@
 
 <div id="left">
 などなど。
-<h2>主な目次</h2>
-
-<ul>
-<li>
-<p>第I部 暗号の基礎</p>
-
-<ul>
-<li>第1章 共通鍵暗号</li>
-<li>第2章 乱数</li>
-<li>第3章 公開鍵暗号</li>
-<li>第4章 認証</li>
-<li>第5章 楕円曲線暗号</li>
-<li>第6章 群</li>
-</ul>
-</li>
-<li>
-<p>第II部 新しい暗号技術</p>
-
-<ul>
-<li>第7章 ペアリングとIDベース暗号</li>
-<li>第8章 検索可能暗号</li>
-<li>第9章 プロキシ暗号</li>
-<li>第10章 放送型暗号</li>
-<li>第11章 属性ベース暗号</li>
-<li>第12章 関数型暗号</li>
-<li>第13章 準同型暗号</li>
-<li>第14章 ゼロ知識証明</li>
-<li>第15章 ペアリングの安全性仮定</li>
-</ul>
-</li>
-<li>
-<p>第III部 数学的なはなし</p>
-
-<ul>
-<li>第16章 有限体</li>
-<li>第17章 楕円曲線</li>
-<li>第18章 ペアリング</li>
-</ul>
-</li>
-<li><p>補遺A 安全性仮定に関する問題一覧</p></li>
-<li><p>参考文献</p></li>
-</ul>
 
 <h2>購入</h2>
 <ul>
-<li><a href="http://www.shuwasystem.co.jp/products/7980html/4413.html">秀和システム</a></li>
 <li><a href="http://www.amazon.co.jp/gp/product/479804413X">amazon</a></li>
 <li><a href="errata.html">正誤表(last update : 2015/6/30)</a></li>
 </ul>
+
+<h2>目次</h2>
+
+<h3>第I部 暗号の基礎</h3>
+
+<h4>第1章 共通鍵暗号</h4>
+	<p class="item">1.1 暗号</p>
+	<p class="item">1.2 古典的な方法</p>
+	<p class="item">1.3 Vernam暗号と情報理論的安全性</p>
+	<p class="item">1.4 共通鍵暗号</p>
+	<p class="item">1.5 ブロック暗号と計算量的安全性</p>
+	<p class="item">1.6 暗号の危殆化</p>
+	<p class="item">1.7 計算量の指標</p>
+	<p class="item">1.8 決定的アルゴリズムの問題点</p>
+	<p class="item">1.9 CBCモードと初期化ベクトル</p>
+	<p class="item">1.10 パディングオラクル攻撃</p>
+
+<h4>第2章 乱数</h4>
+	<p class="item">2.1 擬似乱数</p>
+	<p class="item">2.2 暗号論的擬似乱数</p>
+	<p class="item">2.3 擬似乱数とストリーム暗号</p>
+	<p class="item">2.4 CTRモードとストリーム暗号</p>
+	<p class="item">2.5 Intel CPUのrdrand命令</p>
+
+<h4>第3章 公開鍵暗号</h4>
+	<p class="item">3.1 鍵の共有</p>
+	<p class="item">3.2 余りの世界</p>
+	<p class="item">3.3 Diffie-Hellman鍵共有</p>
+	<p class="item">3.4 鍵共有のための仮定と条件</p>
+	<p class="item">3.5 CDH仮定</p>
+	<p class="item">3.6 DH鍵共有の注意点</p>
+	<p class="item">3.7 巾乗の計算</p>
+	<p class="item">3.8 バイナリ法</p>
+	<p class="item">3.9 公開鍵暗号</p>
+	<p class="item">3.10 余りの世界再び</p>
+	<p class="item">3.11 ElGamal暗号</p>
+	<p class="item">3.12 強秘匿性とDDH仮定</p>
+	<p class="item">3.13 ElGamal暗号の弱点</p>
+	<p class="item">3.14 より強力な攻撃</p>
+	<p class="item">3.15 攻撃と安全性のまとめ</p>
+	<p class="item">3.16 RSA暗号</p>
+	<p class="item">3.17 公開鍵基盤と認証局</p>
+	<p class="item">3.18 PKIへの攻撃</p>
+
+<h4>第4章 認証</h4>
+	<p class="item">4.1 ハッシュ関数</p>
+	<p class="item">4.2 ハッシュ関数の構成</p>
+	<p class="item">4.3 メッセージ認証符号</p>
+	<p class="item">4.4 HMACと伸長攻撃</p>
+	<p class="item">4.5 認証付き暗号</p>
+	<p class="item">4.6 デジタル署名</p>
+	<p class="item">4.7 ブラインド署名</p>
+	<p class="item">4.8 秘匿共通集合計算</p>
+	<p class="item">4.9 部分ブラインド署名</p>
+
+<h4>第5章 楕円曲線暗号</h4>
+	<p class="item">5.1 楕円曲線暗号</p>
+	<p class="item">5.2 1次元から2次元へ</p>
+	<p class="item">5.3 トーラスの世界</p>
+	<p class="item">5.4 楕円離散対数問題</p>
+	<p class="item">5.5 楕円DH鍵共有と楕円ElGamal暗号</p>
+	<p class="item">5.6 楕円曲線暗号の利点</p>
+	<p class="item">5.7 ECDSA</p>
+	<p class="item">5.8 前方秘匿性</p>
+
+<h4>第6章 群</h4>
+	<p class="item">6.1 演算の抽象化</p>
+	<p class="item">6.2 群の定義</p>
+	<p class="item">6.3 巾乗</p>
+	<p class="item">6.4 巡回群</p>
+	<p class="item">6.5 群に対する離散対数問題</p>
+	<p class="item">6.6 離散対数問題に対する攻撃</p>
+	<p class="item">6.7 巡回群の位数</p>
+
+<h3>第II部 新しい暗号技術</h3>
+
+<h4>第7章 ペアリングとIDベース暗号</h4>
+	<p class="item">7.1 ペアリング</p>
+	<p class="item">7.2 IDを使った鍵共有</p>
+	<p class="item">7.3 3者間DH鍵共有</p>
+	<p class="item">7.4 双線形と非対称</p>
+	<p class="item">7.5 対称ペアリングと非対称ペアリング</p>
+	<p class="item">7.6 DLPとECDLPとペアリング</p>
+	<p class="item">7.7 IDベース暗号</p>
+	<p class="item">7.8 IDベース暗号と公開鍵暗号の違い</p>
+	<p class="item">7.9 タイムリリース暗号</p>
+	<p class="item">7.10 ペアリングを使ったデジタル署名</p>
+
+<h4>第8章 検索可能暗号</h4>
+	<p class="item">8.1 キーワード検索</p>
+	<p class="item">8.2 キーワード検索公開鍵暗号</p>
+	<p class="item">8.3 問題点と改良</p>
+
+<h4>第9章 プロキシ暗号</h4>
+	<p class="item">9.1 概要</p>
+	<p class="item">9.2 最初の方式</p>
+	<p class="item">9.3 改良方式</p>
+	<p class="item">9.4 その後の進展</p>
+
+<h4>第10章 放送型暗号</h4>
+	<p class="item">10.1 放送型暗号の目的</p>
+	<p class="item">10.2 ユーザの排除機能</p>
+	<p class="item">10.3 不正者追跡</p>
+	<p class="item">10.4 放送型暗号の始まり</p>
+	<p class="item">10.5 効率のよい放送型暗号</p>
+	<p class="item">10.6 BGW方式の安全性</p>
+	<p class="item">10.7 より一般の不正者追跡</p>
+
+<h4>第11章 属性ベース暗号</h4>
+	<p class="item">11.1 属性ベース暗号とは</p>
+	<p class="item">11.2 秘密分散</p>
+	<p class="item">11.3 (k, n)閾値法</p>
+	<p class="item">11.4 (k, n)閾値法の復号</p>
+	<p class="item">11.5 Fuzzy IDベース暗号</p>
+	<p class="item">11.6 属性ベース暗号</p>
+	<p class="item">11.7 notをサポート</p>
+
+<h4>第12章 関数型暗号</h4>
+	<p class="item">12.1 述語暗号</p>
+	<p class="item">12.2 ベクトルの基底変換と内積</p>
+	<p class="item">12.3 DPVS</p>
+	<p class="item">12.4 DPVSを用いた内積暗号</p>
+	<p class="item">12.5 関数型暗号</p>
+
+<h4>第13章 準同型暗号</h4>
+	<p class="item">13.1 ElGamal暗号再び</p>
+	<p class="item">13.2 化合物データベースの秘匿検索</p>
+	<p class="item">13.3 LWE問題</p>
+	<p class="item">13.4 RLWE仮定による完全準同型暗号</p>
+
+<h4>第14章 ゼロ知識証明</h4>
+	<p class="item">14.1 ゼロ知識証明</p>
+	<p class="item">14.2 離散対数問題のゼロ知識証明</p>
+	<p class="item">14.3 秘匿検索におけるゼロ知識証明</p>
+	<p class="item">14.4 電子投票</p>
+	<p class="item">14.5 シャッフル</p>
+	<p class="item">14.6 シャッフルのゼロ知識証明</p>
+
+<h4>第15章 ペアリングの安全性仮定</h4>
+	<p class="item">15.1 DDH仮定とDLIN仮定</p>
+	<p class="item">15.2 パラメータつき問題</p>
+	<p class="item">15.3 ちょっとしたクイズ</p>
+	<p class="item">15.4 ヒントの多い問題</p>
+	<p class="item">15.5 n-DHI問題とn-SDH問題</p>
+	<p class="item">15.6 補助入力付きDLP</p>
+
+<h3>第III部 数学的なはなし</h3>
+
+<h4>第16章 有限体</h4>
+	<p class="item">16.1 Euclidの互除法と有限体の逆数</p>
+	<p class="item">16.2 Euclidの互除法の効率</p>
+	<p class="item">16.3 Fermatの小定理と有限体の逆数</p>
+	<p class="item">16.4 巡回群の位数</p>
+	<p class="item">16.5 拡大体</p>
+	<p class="item">16.6 代数的閉包</p>
+	<p class="item">16.7 拡大体の元の逆元</p>
+
+<h4>第17章 楕円曲線</h4>
+	<p class="item">17.1 トーラス上の関数</p>
+	<p class="item">17.2 ℘関数</p>
+	<p class="item">17.3 ℘関数の関係式</p>
+	<p class="item">17.4 Weierstrassの方程式</p>
+	<p class="item">17.5 判別式</p>
+	<p class="item">17.6 楕円曲線の加法の図形的な定義</p>
+	<p class="item">17.7 楕円曲線の加法公式</p>
+	<p class="item">17.8 トーラスと楕円曲線の同型対応</p>
+	<p class="item">17.9 射影空間</p>
+	<p class="item">17.10 射影座標での加法公式</p>
+	<p class="item">17.11 Edwards曲線</p>
+	<p class="item">17.12 Edwards曲線の加法公式</p>
+
+<h4>第18章 ペアリング</h4>
+	<p class="item">18.1 関数の零点と極</p>
+	<p class="item">18.2 位数の性質</p>
+	<p class="item">18.3 楕円曲線上の関数の零点と位数の例</p>
+	<p class="item">18.4 因子</p>
+	<p class="item">18.5 楕円曲線上の関数の主因子の性質</p>
+	<p class="item">18.6 ペアリング</p>
+	<p class="item">18.7 Millerのアルゴリズム</p>
+
+<h4>補遺A 安全性仮定に関する問題一覧</h4>
+
+<h4>参考文献</h4>
 
 <h2>pdfとTeXソース</h2>
 
